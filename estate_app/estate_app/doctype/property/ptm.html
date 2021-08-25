@@ -1,0 +1,29 @@
+<div class="row section-break" data-label="Amenity Section">
+    <div class="col-xs-12 column-break">
+        <div data-fieldname="amenities" data-fieldtype="Table">
+            <table class="table table-bordered table-condensed">
+                <thead>
+                    <tr>
+                        <th style="width: 40px" class="table-sr">Sn</th>
+                        <th style="width: 150px;" class="" data-fieldname="amenities" data-fieldtype="Table">Amenity</th>
+                        <th style="width: 80px;" class="text-right" data-fieldname="amenities" data-fieldtype="Table">  Amenity Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in doc.amenities %}
+                    <tr>
+                        <td class="table-sr">{{row.idx}}</td>
+                        <td class="" data-fieldname="amenities" data-fieldtype="Table">
+                            <div class="value">{{row.amenity}}</div>
+                        </td>
+                        <td class="text-right" data-fieldname="amenities" data-fieldtype="Table">
+                            <div class="value">{{row.get_formatted('amenity_price', amenity)}}</div>
+                        </td>
+                    </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

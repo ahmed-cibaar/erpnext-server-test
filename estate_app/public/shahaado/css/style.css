@@ -1,0 +1,135 @@
+    .border-pattern{
+        position:absolute;
+        height:909px;
+        width:1286px;
+        /* border:1mm solid #991B1B; */
+        /* http://www.heropatterns.com/ */
+        background-color: #fff;
+        background-image: url("../images/2.png");
+    }
+    .content{
+        position:absolute;
+        right:170px;
+        top: 400px;;
+        height:58mm;
+        width:950px;
+        /* border:1mm solid #991B1B; */
+        /* background:white; */
+    }
+    .t {
+        transform-origin: bottom left;
+        z-index: 2;
+        position: absolute;
+        white-space: pre;
+        overflow: hidden;
+        line-height: 1.5;
+    }
+    .header {
+        white-space: pre;
+    }
+
+    @supports (-webkit-touch-callout: none) {
+        .header {
+            white-space: pre;
+        }
+    }
+    /* Jamhuriyatu Somali */
+    #t1_11{left:746px;bottom:702px;letter-spacing:0.25px;word-spacing:0.04px;}
+
+
+    /* Rabidul */
+    #td_11{left:861px;bottom:663px;}
+
+    /* Sharciyah fi Somaal */
+    #tm_11{left:815px;bottom:622px;letter-spacing:-0.22px;}
+
+
+
+    /* Jamhuriyada federaalka */
+    #ty_11{left:185px;bottom:702px;letter-spacing:0.25px;word-spacing:0.04px;}
+
+    /* Soomaaliya */
+    #tz_11{left:281px;bottom:676px;letter-spacing:0.25px;}
+
+    /* Xiriirka  */
+    #t10_11{left:250px;bottom:645px;letter-spacing:0.18px;}
+    /* Macaahidda */
+    #t11_11{left:333px;bottom:645px;letter-spacing:0.19px;}
+    /* Sharciga  */
+    #t12_11{left:235px;bottom:618px;letter-spacing:0.21px;}
+    /* eee */
+    #t13_11{left:324px;bottom:618px;letter-spacing:0.16px;}
+    /* Soomaliya */
+    #t14_11{left:352px;bottom:618px;letter-spacing:0.19px;}
+    /* Shadatul Thanawi */
+    #t5l_11{left:455px;bottom:505px;font-size:55px;font-family:MCSShafaS-Unormal-_6d_2;color:#00C;-webkit-text-stroke:1.6px #00C;text-stroke:1.6px #00C;}
+
+    /* Signature and Date */
+
+    /* Xarthu Bitarikh */
+    #t17_11{right:170px;bottom:217px;letter-spacing:0.13px;}
+
+    /*  Raqmu  */
+    #t1g_11{right: 170px;bottom:187px;letter-spacing:-0.17px;word-spacing:0.34px;}
+
+    /* Malaaxadah */
+    #t1g_12{left:838px;bottom:160px;letter-spacing:-0.17px;word-spacing:0.34px; font-size: 20px; color: crimson;}
+
+
+    /* Raisul Imtixan */
+    #t1g_13{left:500px;bottom:217px;letter-spacing:0.13px;}
+    #t1g_14{left:500px;bottom:187px;letter-spacing:-0.17px;word-spacing:0.34px;}
+    #t1g_15{left:500px;bottom:147px;letter-spacing:-0.17px;word-spacing:0.34px;}
+
+    /* Raisul Rabidah */
+    #t1g_16{left:250px;bottom:217px;letter-spacing:0.13px;}
+    #t1g_17{left:185px;bottom:187px;letter-spacing:-0.17px;word-spacing:0.34px;}
+    #t1g_18{left:185px;bottom:147px;letter-spacing:-0.17px;word-spacing:0.34px;}
+
+    .font-header1{font-size:29px;font-family:MCS-Shafa-S_U-normal;color:#7030A0;-webkit-text-stroke:0.8px #7030A0;text-stroke:0.8px #7030A0;}
+    .font-header2{font-size:28px;font-family:Al-Kharashi-38;color:#009;}
+    .font-header3{font-size:21px;font-family:Verdana-Bold;color:#7030A0;}
+    .font-header4{font-size:21px;font-family:AlbertusExtraBold-Regular_6t;color:#00C;}
+
+    .font-text1{font-size:28px;font-family:DecoType-Thuluth-Regular;color:#000;}
+    .font-text11{font-size:28px;font-family:Majalla;color:#000;} 
+    .font-text12{font-size:28px;font-family:DecoType-Naskh-Variants-Regular;color:#00C;}
+
+    bdo {
+        display: no;
+    }
+    @font-face {
+        font-family: DecoType-Thuluth-Regular;
+        src: url("../fonts/DecoType-Thuluth-Regular.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: DecoType-Naskh-Variants-Regular;
+        src: url("../fonts/DecoType-Naskh-Variants-Regular.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: Majalla;
+        src: url("../fonts/majalla.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: MCS-Shafa-S_U-normal;
+        src: url("../fonts/MCS Shafa S_U normal..ttf") format("truetype");
+    }
+    @font-face {
+        font-family: Al-Kharashi-38;
+        src: url("../fonts/Al-Kharashi-38.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: Verdana-Bold;
+        src: url("../fonts/Verdana-Bold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: AlbertusExtraBold-Regular_6t;
+        src: url("../fonts/AlbertusExtraBold-Regular_6t.ttf") format("truetype");
+    }
+
+    @media print {
+        * {
+            -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+            color-adjust: exact !important;  /*Firefox*/
+        }
+    }
